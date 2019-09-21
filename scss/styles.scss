@@ -317,7 +317,7 @@ header {
 
 .mainplan .planbutton {
     border: 0px;
-    background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 97.42%);
+    background: $coolgradient;
     border-radius: 4px;
     color: #fff;
 }
@@ -329,7 +329,7 @@ header {
     padding-top:121px;
     padding-bottom: 120px;
     color: #fff;
-    background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 100%);
+    background: $coolgradient;
     text-align: center;
 
     h2 {

@@ -64,7 +64,20 @@ header {
   border-radius: 4px;
   margin-right: 39.5px;
   margin-left: 0px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#topform input[type=text]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#topform input[type=text]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#topform input[type=text]::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #topform input[type=text]::placeholder {
@@ -81,6 +94,7 @@ header {
   width: 192px;
   border: 0px;
   padding: 0px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(2.77%, #FE985B), color-stop(97.42%, #FE4FA7));
   background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 97.42%);
   cursor: pointer;
 }
@@ -301,7 +315,8 @@ header {
   width: 192px;
   height: 53px;
   border: 1px solid #979797;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 4px;
   font-style: normal;
   font-weight: normal;
@@ -312,6 +327,7 @@ header {
 
 .mainplan .planbutton {
   border: 0px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(2.77%, #FE985B), color-stop(97.42%, #FE4FA7));
   background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 97.42%);
   border-radius: 4px;
   color: #fff;
@@ -323,7 +339,8 @@ header {
   padding-top: 121px;
   padding-bottom: 120px;
   color: #fff;
-  background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(2.77%, #FE985B), color-stop(97.42%, #FE4FA7));
+  background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 97.42%);
   text-align: center;
 }
 
@@ -352,7 +369,8 @@ header {
   border: 0px;
   background: #FFFFFF;
   border-radius: 4px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
